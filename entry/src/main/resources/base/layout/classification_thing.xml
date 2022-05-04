@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+        <TableLayout
+            ohos:id="$+id:search_result_tablelayout_class"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:column_count="2"
+            ohos:margin="5vp">
+        </TableLayout>
+    </ScrollView>
+</DirectionalLayout>

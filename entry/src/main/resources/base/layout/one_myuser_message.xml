@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:bottom_margin="5vp"
+    ohos:top_margin="15vp"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+    <StackLayout
+        ohos:layout_alignment="right"
+        ohos:height="match_content"
+        ohos:width="match_parent">
+    <Text
+        ohos:right_margin="80vp"
+        ohos:layout_alignment="right"
+        ohos:id="$+id:my_message"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:button_red1"
+        ohos:left_padding="5vp"
+        ohos:right_padding="5vp"
+        ohos:text="是的在武汉甲学院操场上"
+        ohos:text_size="15fp"
+        ohos:top_margin="10vp"/>
+
+    <Image
+        ohos:right_margin="5vp"
+        ohos:layout_alignment="right"
+        ohos:id="$+id:img_thing2"
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:image_src="$media:icon"
+        ohos:scale_mode="stretch"/>
+    </StackLayout>
+</DirectionalLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Image
+        ohos:id="$+id:one_photo"
+        ohos:height="80vp"
+        ohos:width="80vp"
+        ohos:image_src="$media:o1"/>
+</DirectionalLayout>

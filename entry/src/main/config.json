@@ -1,0 +1,234 @@
+{
+  "app": {
+    "bundleName": "com.example.supplements",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      },
+      "keepAlive": true
+    }
+  },
+  "module": {
+    "package": "com.example.supplements",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.supplements.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "wearable"
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+        }
+      ]
+    },
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.supplements.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard",
+        "formsEnabled": true,
+        "forms": [
+          {
+            "landscapeLayouts": [
+              "$layout:form_image_with_information_widget_2_2",
+              "$layout:form_image_with_information_widget_2_4",
+              "$layout:form_image_with_information_widget_4_4"
+            ],
+            "isDefault": true,
+            "scheduledUpdateTime": "10:30",
+            "defaultDimension": "2*2",
+            "name": "widget",
+            "description": "This is a service widget",
+            "colorMode": "auto",
+            "type": "Java",
+            "supportDimensions": [
+              "2*2",
+              "2*4",
+              "4*4"
+            ],
+            "portraitLayouts": [
+              "$layout:form_image_with_information_widget_2_2",
+              "$layout:form_image_with_information_widget_2_4",
+              "$layout:form_image_with_information_widget_4_4"
+            ],
+            "updateEnabled": true,
+            "updateDuration": 1
+          }
+        ]
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.frontOne",
+        "icon": "$media:icon",
+        "description": "$string:frontone_description",
+        "label": "$string:entry_frontOne",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.Log_in",
+        "icon": "$media:icon",
+        "description": "$string:log_in_description",
+        "label": "$string:entry_Log_in",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.Main2Ability",
+        "icon": "$media:icon",
+        "description": "$string:main2ability_description",
+        "label": "$string:entry_Main2Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.Main3Ability",
+        "icon": "$media:icon",
+        "description": "$string:main3ability_description",
+        "label": "$string:entry_Main3Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.WatchAbility",
+        "icon": "$media:icon",
+        "description": "$string:watchability_description",
+        "label": "$string:entry_WatchAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.supplements.WatchService",
+        "icon": "$media:icon",
+        "description": "$string:watchservice_description",
+        "type": "service"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.Main4Ability",
+        "icon": "$media:icon",
+        "description": "$string:main4ability_description",
+        "label": "$string:entry_Main4Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.register",
+        "icon": "$media:icon",
+        "description": "$string:register_description",
+        "label": "$string:entry_register",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.address",
+        "icon": "$media:icon",
+        "description": "$string:address_description",
+        "label": "$string:entry_address",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.supplements.initShop",
+        "icon": "$media:icon",
+        "description": "$string:initshop_description",
+        "label": "$string:entry_initShop",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE"
+      },
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO"
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:address_description",
+        "usedScene": {
+          "ability": [
+            "ohos.samples.location.MainAbility"
+          ],
+          "when": "always"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND"
+      },
+      {
+        "name": "ohos.permission.ACCELEROMETER"
+      },
+      {
+        "name": "ohos.permission.GYROSCOPE"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "usedScene": {
+          "ability": [
+            "com.example.supplements.Main3Ability"
+          ],
+          "when": "always"
+        },
+        "reason": "request internet",
+        "name": "ohos.permission.INTERNET"
+      }
+    ]
+  }
+}

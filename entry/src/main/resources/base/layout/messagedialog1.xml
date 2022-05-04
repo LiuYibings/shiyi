@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="190vp"
+        ohos:width="330vp"
+        ohos:background_element="$graphic:button_red1"
+        ohos:left_margin="13vp"
+        ohos:top_margin="260vp">
+
+        <Text
+            ohos:id="$+id:messagelog1_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="10vp"
+            ohos:text="标题"
+            ohos:text_size="25vp"
+            ohos:top_margin="5vp"/>
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="330vp"
+            ohos:image_src="$media:horizontal_lineOne"
+            ohos:top_margin="5vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="40vp"
+            ohos:orientation="horizontal"
+            ohos:top_margin="30vp">
+
+            <Text
+                ohos:id="$+id:message1_one"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="名称："
+                ohos:text_size="20vp"
+                ohos:top_margin="8vp"/>
+
+            <TextField
+                ohos:id="$+id:messagelog1_name"
+                ohos:height="match_content"
+                ohos:width="180vp"
+                ohos:background_element="$graphic:button_red"
+                ohos:bottom_padding="5vp"
+                ohos:text_size="20vp"
+                ohos:top_padding="5vp"/>
+        </DirectionalLayout>
+
+
+        <Image
+            ohos:height="match_content"
+            ohos:width="330vp"
+            ohos:image_src="$media:horizontal_lineOne"
+            ohos:top_margin="15vp"/>
+
+        <DirectionalLayout
+
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:message1_Sure"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="65vp"
+                ohos:text="确定"
+                ohos:text_size="20vp"
+                ohos:top_margin="20vp"/>
+
+            <Image
+                ohos:height="70vp"
+                ohos:width="match_content"
+                ohos:image_src="$media:ver_lineOne"
+                ohos:left_margin="60vp"/>
+
+            <Text
+                ohos:id="$+id:cancel1"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="65vp"
+                ohos:text="取消"
+                ohos:text_size="20vp"
+                ohos:top_margin="20vp"/>
+
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

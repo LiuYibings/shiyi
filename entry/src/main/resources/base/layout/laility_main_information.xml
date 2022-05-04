@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:orientation="vertical"
+    ohos:padding="5vp">
+    <!--    消息-->
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="155vp"
+        ohos:text="消息"
+        ohos:text_size="20fp"/>
+
+    <StackLayout
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <Image
+            ohos:height="20vp"
+            ohos:width="20vp"
+            ohos:image_src="$media:search"
+            ohos:left_margin="20vp"
+            ohos:scale_mode="inside"
+            ohos:top_margin="12vp"/>
+
+        <TextField
+            ohos:height="35vp"
+            ohos:width="340vp"
+            ohos:background_element="$graphic:background_search_input"
+            ohos:hint="搜索聊天记录/联系人/服务号 "
+            ohos:left_margin="10vp"
+            ohos:left_padding="40vp"
+            ohos:text_size="15fp"
+            ohos:top_margin="5vp"
+            ohos:top_padding="8vp">
+        </TextField>
+    </StackLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="30vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+            <DirectionalLayout
+                ohos:id="$+id:cath_list"
+                ohos:height="match_content"
+                ohos:width="match_content">
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

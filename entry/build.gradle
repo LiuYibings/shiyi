@@ -1,0 +1,45 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\gene\\.ohos\\config\\auto_debug_supplements_2850086000511353259.p12')
+            storePassword '000000189F8C8CA3118EB76FD1A3AA36C91EF9C371E4C9BC5FEE53C187F395748EC70DD1E09ACC72'
+            keyAlias = 'debugKey'
+            keyPassword '0000001897083EE151994E25B028BC04AFE55B494EB0B7A5222C9373E4A05031768F512F69E1B091'
+            signAlg = 'SHA256withECDSA'
+            profile file('C:\\Users\\gene\\.ohos\\config\\auto_debug_supplements_2850086000511353259.p7b')
+            certpath file('C:\\Users\\gene\\.ohos\\config\\auto_debug_supplements_2850086000511353259.cer')
+        }
+    }
+    compileSdkVersion 7
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+}
+dependencies {
+    implementation 'com.huawei.agconnect:agconnect-core-harmony:1.0.0.300'
+    implementation files("libs/mapslibrary-release.har")
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation project(path: ':tinymap')
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.200'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    dependencies {
+        implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+        testImplementation 'junit:junit:4.13.1'
+        ohosTestImplementation 'com.huawei.ohos.testkit:runner:2.0.0.200'
+    }
+    decc {
+        supportType = ['html', 'xml']
+    }
+}

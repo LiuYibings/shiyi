@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+<!--    物品轮廓图-->
+    <PageSlider
+        ohos:id="$+id:product_detail_image_pageslider"
+        ohos:height="300vp"
+        ohos:width="match_parent"
+        ohos:background_element="#cccccc"></PageSlider>
+
+<!--    物品标题-->
+    <Text
+        ohos:id="$+id:product_detail_sku_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="#FF000000"
+        ohos:text_size="25fp"
+        ohos:text="标题"
+        ohos:multiple_lines="true"
+        ohos:text_alignment="left"></Text>
+    <!--    补偿-->
+    <Text
+        ohos:id="$+id:product_detail_price_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="#FFFF0000"
+        ohos:text_size="35fp"
+        ohos:text="补偿"
+        ohos:text_alignment="right"></Text>
+<!--    详情-->
+    <Text
+        ohos:id="$+id:product_detail_details_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_color="#FFB1ADAD"
+        ohos:text_size="35fp"
+        ohos:text="详情kjashkdjfhkajsdhflkajshdfljahsldfjnalskdjbflkasjhdlashndlfkjhalskuhflk"
+        ohos:multiple_lines="true"
+        ohos:text_alignment="left"></Text>
+</DirectionalLayout>

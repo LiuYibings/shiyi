@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    ohos:top_margin="15vp"
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Image
+        ohos:id="$+id:one_img1"
+        ohos:height="60vp"
+        ohos:width="60vp"
+        ohos:image_src="$media:on3"
+        ohos:scale_mode="stretch"/>
+
+    <Text
+        ohos:id="$+id:orther_user"
+        ohos:height="50vp"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:button_red"
+        ohos:left_margin="5vp"
+        ohos:left_padding="5vp"
+        ohos:right_padding="5vp"
+        ohos:text="您好您这边是捡到我的手机了吗"
+        ohos:text_size="15fp"
+        ohos:top_margin="10vp"/>
+</DirectionalLayout>

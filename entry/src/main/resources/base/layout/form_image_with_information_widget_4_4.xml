@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:remote="true">
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:bottom_margin="150vp">
+
+        <Image
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:image_src="$media:o3_1"
+            ohos:scale_mode="clip_center"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:bottom_margin="12vp"
+            ohos:orientation="vertical"
+            ohos:start_margin="12vp">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="u盘寻物启示"
+                ohos:text_color="#E5FFFFFF"
+                ohos:text_size="20fp"
+                ohos:text_weight="500"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="武汉城市职业学院2-4-301"
+                ohos:text_color="#99FFFFFF"
+                ohos:text_size="16fp"
+                ohos:text_weight="400"
+                ohos:top_margin="2vp"/>
+        </DirectionalLayout>
+    </DependentLayout>
+
+    <DirectionalLayout
+        ohos:height="150vp"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="#FFFFFFFF"
+        ohos:orientation="horizontal">
+
+        <DependentLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <Image
+                ohos:height="match_parent"
+                ohos:width="126vp"
+                ohos:horizontal_center="true"
+                ohos:image_src="$media:o3_2"
+                ohos:scale_mode="zoom_start"
+                ohos:top_margin="12vp"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="126vp"
+                ohos:align_parent_bottom="true"
+                ohos:bottom_margin="12vp"
+                ohos:horizontal_center="true"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="数据线招领启示"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="16fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="湖北省武汉市洪山区XXX"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DependentLayout>
+
+        <DependentLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1">
+
+            <Image
+                ohos:height="match_parent"
+                ohos:width="126vp"
+                ohos:horizontal_center="true"
+                ohos:image_src="$media:o3_3"
+                ohos:scale_mode="zoom_start"
+                ohos:top_margin="12vp"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="126vp"
+                ohos:align_parent_bottom="true"
+                ohos:bottom_margin="12vp"
+                ohos:horizontal_center="true"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="钢铁侠盔甲招领启示"
+                    ohos:text_color="#E5000000"
+                    ohos:text_size="16fp"
+                    ohos:text_weight="500"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="唐尼老家"
+                    ohos:text_color="#99000000"
+                    ohos:text_size="12fp"
+                    ohos:text_weight="400"
+                    ohos:top_margin="2vp"
+                    ohos:truncation_mode="ellipsis_at_end"/>
+            </DirectionalLayout>
+        </DependentLayout>
+    </DirectionalLayout>
+</DependentLayout>

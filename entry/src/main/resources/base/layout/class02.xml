@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="15vp"
+        ohos:text="手机"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_size="15fp"
+        ohos:top_margin="20vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="20vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp">
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class19"
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a20"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="5vp"
+                ohos:text="华为手机"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class20"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a7"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:text="手机"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class21"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a21"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="18vp"
+                ohos:text="苹果手机"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <Text
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="15vp"
+        ohos:text="办公用品"
+        ohos:text_font="HwChinese-medium"
+        ohos:text_size="15fp"
+        ohos:top_margin="20vp"/>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="20vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp">
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class22"
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a22"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="5vp"
+                ohos:text="打印机"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class23"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a23"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:text="笔"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class24"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a24"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="18vp"
+                ohos:text="激光笔"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="20vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="20vp">
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class25"
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a25"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="5vp"
+                ohos:text="投影机"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class26"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a26"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="5vp"
+                ohos:text="提示牌"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:thing_class27"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="20vp">
+
+            <Image
+                ohos:height="60vp"
+                ohos:width="60vp"
+                ohos:image_src="$media:a27"
+                ohos:scale_mode="stretch"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="18vp"
+                ohos:text="钥匙"
+                ohos:text_size="12vp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

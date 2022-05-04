@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_content">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:one"
+                        ohos:left_margin="10vp"
+                        ohos:scale_mode="zoom_center"
+                        ohos:top_margin="10vp"/>
+
+                    <Text
+                        ohos:id="$+id:one_username"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="20vp"
+                        ohos:text="李慧"
+                        ohos:text_size="20fp"
+                        ohos:top_margin="5vp"/>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:id="$+id:one_userid"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="50vp"
+                    ohos:text="ID:1"
+                    ohos:text_color="#BCD9D9D9"
+                    ohos:text_size="12fp"/>
+            </DirectionalLayout>
+
+            <StackLayout
+                ohos:height="match_content"
+                ohos:width="match_content">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="10vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="10vp">
+
+                    <DirectionalLayout
+                        ohos:id="$+id:one_thing_photo"
+                        ohos:height="match_content"
+                        ohos:width="match_content">
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="15fp">
+
+                        <DirectionalLayout
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:orientation="horizontal">
+
+                            <Image
+                                ohos:height="15vp"
+                                ohos:width="15vp"
+                                ohos:image_src="$media:jifeng"
+                                ohos:scale_mode="zoom_center"
+                                ohos:top_margin="15vp"/>
+
+                            <Text
+                                ohos:id="$+id:one_thing_price"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:left_margin="10vp"
+                                ohos:text="50"
+                                ohos:text_color="red"
+                                ohos:text_size="18fp"
+                                ohos:top_margin="10vp"/>
+                        </DirectionalLayout>
+
+                        <Text
+                            ohos:id="$+id:one_thing_title"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="魅族18pro失物招领"
+                            ohos:text_size="15vp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="80vp"
+                    ohos:background_element="$graphic:red_button"
+                    ohos:layout_alignment="right"
+                    ohos:left_margin="270vp"
+                    ohos:left_padding="8vp"
+                    ohos:right_margin="5vp"
+                    ohos:text="接榜"
+                    ohos:text_color="#FFFFFFFF"
+                    ohos:text_size="30fp"
+                    ohos:top_margin="30vp"/>
+            </StackLayout>
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="360vp"
+                ohos:image_src="$media:horizontal_lineOne"
+                ohos:top_margin="10vp"/>
+
+            <ScrollView
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="15vp">
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_parent"
+                        ohos:left_margin="10vp">
+
+                        <DirectionalLayout
+                            ohos:id="$+id:one_ohter_chat"
+                            ohos:height="match_content"
+                            ohos:width="match_content">
+                        </DirectionalLayout>
+
+                        <DirectionalLayout
+                            ohos:id="$+id:one_my_chat"
+                            ohos:height="match_content"
+                            ohos:width="match_parent"
+                            ohos:align_parent_right="true"
+                            ohos:alignment="right">
+                        </DirectionalLayout>
+
+
+                    </DirectionalLayout>
+                </DirectionalLayout>
+                <DirectionalLayout
+                    ohos:top_margin="550vp"
+                    ohos:id="$+id:img_thing3"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <TextField
+                        ohos:id="$+id:one_img2"
+                        ohos:height="40vp"
+                        ohos:width="240vp"
+                        ohos:background_element="$graphic:button_red"
+                        ohos:bottom_margin="15vp"
+                        ohos:hint="想对她说..."
+                        ohos:left_margin="20vp"
+                        ohos:left_padding="5vp"
+                        ohos:text_size="15fp"
+                        ohos:top_padding="5vp"/>
+
+                    <Button
+                        ohos:id="$+id:message_but"
+                        ohos:height="40vp"
+                        ohos:width="60vp"
+                        ohos:background_element="$graphic:button_red"
+                        ohos:left_margin="10vp"
+                        ohos:text="发送"
+                        ohos:text_size="15fp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+            </ScrollView>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

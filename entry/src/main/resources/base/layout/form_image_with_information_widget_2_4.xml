@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFFFFFFF"
+    ohos:orientation="horizontal"
+    ohos:remote="true">
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <Image
+            ohos:height="match_parent"
+            ohos:width="126vp"
+            ohos:horizontal_center="true"
+            ohos:image_src="$media:o2"
+            ohos:scale_mode="zoom_start"
+            ohos:top_margin="17vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="126vp"
+            ohos:align_parent_bottom="true"
+            ohos:bottom_margin="12vp"
+            ohos:horizontal_center="true"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="韦小宝身份证失物招领"
+                ohos:text_color="#E5000000"
+                ohos:text_size="16fp"
+                ohos:text_weight="500"
+                ohos:truncation_mode="ellipsis_at_end"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="北京市东城区景山前街"
+                ohos:text_color="#99000000"
+                ohos:text_size="12fp"
+                ohos:text_weight="400"
+                ohos:top_margin="2vp"
+                ohos:truncation_mode="ellipsis_at_end"/>
+        </DirectionalLayout>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <Image
+            ohos:height="match_parent"
+            ohos:width="126vp"
+            ohos:horizontal_center="true"
+            ohos:image_src="$media:o2_2"
+            ohos:scale_mode="zoom_start"
+            ohos:top_margin="17vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="126vp"
+            ohos:align_parent_bottom="true"
+            ohos:bottom_margin="12vp"
+            ohos:horizontal_center="true"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="饭卡寻物启示"
+                ohos:text_color="#E5000000"
+                ohos:text_size="16fp"
+                ohos:text_weight="500"
+                ohos:truncation_mode="ellipsis_at_end"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:text="五道口职业技术学院"
+                ohos:text_color="#99000000"
+                ohos:text_size="12fp"
+                ohos:text_weight="400"
+                ohos:top_margin="2vp"
+                ohos:truncation_mode="ellipsis_at_end"/>
+        </DirectionalLayout>
+    </DependentLayout>
+</DirectionalLayout>

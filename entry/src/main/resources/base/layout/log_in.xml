@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:top_padding="80vp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:log_in"
+        ohos:layout_alignment="horizontal_center"
+        ohos:top_margin="10vp"/>
+
+    <TextField
+        ohos:top_padding="20vp"
+        ohos:hint="亲输入用户名"
+        ohos:id="$+id:phone"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:hint_color="#FF8A8484"
+        ohos:left_margin="20vp"
+        ohos:padding="10vp"
+        ohos:right_margin="20vp"
+        ohos:text_color="#333333"
+        ohos:text_size="20fp"
+        ohos:top_margin="10vp"/>
+
+
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_margin="20vp"
+        ohos:orientation="horizontal"
+        ohos:right_margin="20vp"
+        ohos:top_margin="10vp">
+
+        <TextField
+            ohos:id="$+id:log_in_pwd"
+            ohos:height="match_content"
+            ohos:width="0vp"
+            ohos:hint="请输入密码"
+            ohos:hint_color="#999999"
+            ohos:layout_alignment="vertical_center"
+            ohos:padding="10vp"
+            ohos:text_color="#333333"
+            ohos:text_size="20fp"
+            ohos:weight="1"/>
+        <Image
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:icon_pwd_close"
+            ohos:layout_alignment="vertical_center"
+            ohos:right_margin="6vp"/>
+    </DirectionalLayout>
+
+
+
+
+    <Button
+        ohos:id="$+id:btn_login"
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:shape_btn_login"
+        ohos:left_margin="20vp"
+        ohos:padding="10vp"
+        ohos:right_margin="20vp"
+        ohos:text="登 录"
+        ohos:text_color="#ffffff"
+        ohos:text_size="24fp"/>
+
+    <Button
+        ohos:id="$+id:btn_register"
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:shape_btn_register"
+        ohos:left_margin="20vp"
+        ohos:padding="10vp"
+        ohos:right_margin="20vp"
+        ohos:text="注 册"
+        ohos:text_color="#1973FB"
+        ohos:text_size="24fp"
+        ohos:top_margin="20vp"/>
+
+    <Text
+        ohos:id="$+id:msgtip"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:margin="20vp"
+        ohos:text_size="16fp"/>
+
+    <DirectionalLayout
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+        ohos:weight="1">
+
+        <Text
+            ohos:top_margin="10vp"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="第三方账号登录"
+            ohos:text_color="#999999"
+            ohos:text_size="18fp"/>
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:top_margin="10vp"
+            ohos:orientation="horizontal">
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon_wx"/>
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="12vp"
+                ohos:right_margin="12vp"
+                ohos:image_src="$media:icon_qq"/>
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:icon_zfb"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<state-container xmlns:ohos="http://schemas.huawei.com/res/ohos">
+    <item ohos:state="component_state_checked"
+          ohos:element="$graphic:background_checkbox_checked"/>
+    <item ohos:state="component_state_empty"
+          ohos:element="$graphic:background_checkbox_empty"/>
+</state-container>

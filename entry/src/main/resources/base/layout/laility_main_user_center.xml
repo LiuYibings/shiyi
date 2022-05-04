@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:orientation="vertical"
+    ohos:padding="5vp">
+    <!-- 显示⽤户信息：头像、昵称 -->
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="#FF413E3E"/>
+
+            <DirectionalLayout
+                ohos:height="160vp"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_padding="40vp"
+                >
+
+                <StackLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content">
+
+
+                    <Image
+                        ohos:id="$+id:image_user"
+                        ohos:height="100vp"
+                        ohos:width="100vp"
+                        ohos:image_src="$media:toxiang"
+                        ohos:left_margin="30vp"
+                        ohos:scale_mode="zoom_center"/>
+                </StackLayout>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="20vp">
+
+                    <Text
+                        ohos:id="$+id:username"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="用户名"
+                        ohos:text_size="20fp"
+                        ohos:top_margin="72px"/>
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="20vp"
+                        ohos:orientation="horizontal">
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="ID:"
+                            ohos:text_color="#E28C8A8A"
+                            ohos:text_size="20fp"
+                            ohos:top_margin="6vp"/>
+
+                        <Text
+                            ohos:id="$+id:user_id"
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text_color="#FF7A6B6B"
+                            ohos:text_size="20fp"
+                            ohos:top_margin="6vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:text="我的设置"
+                ohos:text_size="15fp"
+                ohos:top_margin="15vp"/>
+
+            <DirectionalLayout
+                ohos:height="100vp"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <DirectionalLayout
+                    ohos:id="$+id:user_telephone"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="25vp"
+                    ohos:top_padding="10vp">
+
+                    <Image
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:telephone"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="5vp"
+                        ohos:text="电话"
+                        ohos:text_size="15fp"
+                        ohos:top_padding="10vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:user_qq"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="30vp"
+                    ohos:top_margin="10vp">
+
+                    <Image
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:QQ"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="8vp"
+                        ohos:text="QQ"
+                        ohos:text_size="15fp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:user_emil"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="25vp"
+                    ohos:top_margin="10vp">
+
+                    <Image
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:Mail"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="5vp"
+                        ohos:text="邮箱"
+                        ohos:text_size="15fp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:user_address"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="25vp"
+                    ohos:top_margin="10vp">
+
+                    <Image
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:area"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="5vp"
+                        ohos:text="地址"
+                        ohos:text_size="15fp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:id="$+id:user_weixing"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="25vp"
+                    ohos:top_margin="10vp">
+
+                    <Image
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:weixin"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="5vp"
+                        ohos:text="微信"
+                        ohos:text_size="15fp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+
+            <Image
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:image_src="$media:horizontal_lineOne"
+                ohos:top_margin="10vp"/>
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:text="我的拾遗"
+                ohos:text_size="15fp"
+                ohos:top_margin="15vp"/>
+
+            <DirectionalLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:top_margin="10vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_publish"
+                        ohos:height="60vp"
+                        ohos:width="140vp"
+                        ohos:left_margin="20vp"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="10vp">
+
+                        <Image
+                            ohos:height="60vp"
+                            ohos:width="30vp"
+                            ohos:image_src="$media:pick_up"
+                            ohos:left_margin="15vp"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="我发布"
+                            ohos:text_size="15vp"
+                            ohos:top_margin="17vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:id="$+id:catchuser"
+                        ohos:height="60vp"
+                        ohos:width="140vp"
+                        ohos:left_margin="20vp"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="10vp">
+
+                        <Image
+                            ohos:height="60vp"
+                            ohos:width="30vp"
+                            ohos:image_src="$media:pick_up01"
+                            ohos:left_margin="15vp"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="我接榜"
+                            ohos:text_size="15vp"
+                            ohos:top_padding="20vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="10vp"
+                    ohos:text="更多"
+                    ohos:text_size="15fp"
+                    ohos:top_margin="15vp"/>
+
+                <DirectionalLayout
+                    ohos:height="100vp"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_jieshao"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="34vp"
+                        ohos:top_padding="10vp">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:property"
+                            ohos:left_margin="5vp"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="团队介绍"
+                            ohos:text_size="15fp"
+                            ohos:top_padding="10vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_team_introduction"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="25vp"
+                        ohos:top_margin="10vp">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:user02"
+                            ohos:left_margin="5vp"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:text="联系我们"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_fankui"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="25vp"
+                        ohos:top_margin="10vp">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:user03"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="反馈"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_addressgetmy"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="25vp"
+                        ohos:top_margin="10vp">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:user04"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="地址"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="10vp"
+                    ohos:text="更多设置"
+                    ohos:text_size="15fp"
+                    ohos:top_margin="20vp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="30vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="10vp">
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_nameAndPassword"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="30vp"
+                        ohos:orientation="horizontal">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:user05"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="设置"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+
+                    <DirectionalLayout
+                        ohos:id="$+id:user_intent"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="60vp"
+                        ohos:orientation="horizontal">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:user06"
+                            ohos:scale_mode="zoom_center"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="5vp"
+                            ohos:text="修改设置"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="10vp"/>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

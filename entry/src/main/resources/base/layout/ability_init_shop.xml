@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:orientation="vertical">
+
+    <ScrollView
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:top_padding="10vp">
+
+                <Text
+                    ohos:left_margin="20vp"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="取消"
+                    ohos:text_size="20fp"
+                    />
+
+                <Button
+                    ohos:id="$+id:add"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:background_element="$graphic:red_button1"
+                    ohos:left_margin="240vp"
+                    ohos:text="发布"
+                    ohos:text_size="25fp"
+                    />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_margin="10vp">
+
+                <TextField
+                    ohos:left_margin="20vp"
+                    ohos:id="$+id:thing_title"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="亲输入您的标题"
+                    ohos:multiple_lines="true"
+                    ohos:text_size="20vp"
+                    ohos:top_margin="20vp"/>
+
+                <Image
+                    ohos:left_margin="10vp"
+                    ohos:height="match_content"
+                    ohos:width="320vp"
+                    ohos:image_src="$media:horizontal_lineOne"
+                    ohos:top_padding="10vp"/>
+            </DirectionalLayout>
+
+            <TextField
+                ohos:left_margin="20vp"
+                ohos:id="$+id:thing_remark"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:hint="请输入您的物品/人的招领或丢失内容"
+                ohos:multiple_lines="true"
+                ohos:text_size="15vp"
+                ohos:top_margin="20vp"/>
+
+            <DirectionalLayout
+                ohos:id="$+id:status_photos"
+                ohos:height="170vp"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="30vp">
+            </DirectionalLayout>
+
+            <StackLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:top_padding="10vp">
+
+                <Button
+                    ohos:id="$+id:btnChooseImg"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="30vp"
+                    ohos:text="+添加照片"
+                    ohos:text_size="20vp"
+                    ohos:top_padding="50vp"/>
+
+                <Text
+                    ohos:left_margin="20vp"
+                    ohos:height="140vp"
+                    ohos:width="140vp"
+                    ohos:background_element="$graphic:back"/>
+
+            </StackLayout>
+
+            <StackLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:top_margin="20vp">
+
+                <TextField
+                    ohos:left_margin="20vp"
+                    ohos:id="$+id:thing_address"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="请输入您的地址或者交给我们探索"
+                    ohos:text_size="15vp"/>
+
+                <Image
+                    ohos:id="$+id:start_locating"
+                    ohos:left_margin="310vp"
+                    ohos:scale_mode="zoom_center"
+                    ohos:height="30vp"
+                    ohos:width="30vp"
+                    ohos:image_src="$media:didian"/>
+            </StackLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="20vp"
+                    ohos:text="积分"
+                    ohos:text_size="15vp"
+                    ohos:top_margin="20vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="250vp"
+                    ohos:text="￥"
+                    ohos:text_color="red"
+                    ohos:text_size="15fp"
+                    ohos:top_margin="20vp"/>
+
+                <TextField
+                    ohos:id="$+id:thing_price"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:hint="0.00"
+                    ohos:text_color="red"
+                    ohos:text_size="15fp"
+                    ohos:top_margin="20vp"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

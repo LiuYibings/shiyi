@@ -1,0 +1,152 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "拾遗"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_frontOne",
+      "value": "entry_frontOne"
+    },
+    {
+      "name": "frontone_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "frontone_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Log_in",
+      "value": "entry_Log_in"
+    },
+    {
+      "name": "log_in_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "log_in_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Main2Ability",
+      "value": "entry_Main2Ability"
+    },
+    {
+      "name": "main2ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "main2ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Main3Ability",
+      "value": "entry_Main3Ability"
+    },
+    {
+      "name": "main3ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "main3ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_WatchAbility",
+      "value": "entry_WatchAbility"
+    },
+    {
+      "name": "watchability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "watchability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_WatchService",
+      "value": "entry_WatchService"
+    },
+    {
+      "name": "watchservice_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "watchservice_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Main4Ability",
+      "value": "entry_Main4Ability"
+    },
+    {
+      "name": "main4ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "main4ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "widget_button_description",
+      "value": "Button Description"
+    },
+    {
+      "name": "entry_MoviesDetailAbility",
+      "value": "entry_MoviesDetailAbility"
+    },
+    {
+      "name": "moviesdetailability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "moviesdetailability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_register",
+      "value": "entry_register"
+    },
+    {
+      "name": "register_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "register_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_address",
+      "value": "entry_address"
+    },
+    {
+      "name": "address_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "address_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_initShop",
+      "value": "entry_initShop"
+    },
+    {
+      "name": "initshop_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "initshop_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

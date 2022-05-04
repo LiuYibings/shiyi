@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_common"
+    ohos:orientation="vertical">
+
+    <StackLayout
+        ohos:height="match_content"
+        ohos:width="match_parent">
+
+        <Text
+            ohos:id="$+id:backIndex"
+            ohos:height="150vp"
+            ohos:width="match_parent"/>
+
+        <DirectionalLayout
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:left_margin="10vp"
+            ohos:orientation="horizontal">
+
+            <TabList
+                ohos:id="$+id:thing_tablist"
+                ohos:height="50vp"
+                ohos:width="180vp"
+                ohos:fixed_mode="true"
+                ohos:left_margin="20vp"
+                ohos:normal_text_color="#888888"
+                ohos:padding="10vp"
+                ohos:selected_text_color="#FFFFFFFF"
+                ohos:tab_indicator_type="bottom_line"
+                ohos:text_alignment="center"
+                ohos:text_size="18vp"
+                ></TabList>
+
+
+            <Text
+                ohos:id="$+id:addressone"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="10vp"
+                ohos:text="附近"
+                ohos:text_color="#888888"
+                ohos:text_size="18vp"
+                ohos:top_margin="10vp"/>
+        </DirectionalLayout>
+
+        <ScrollView
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="30vp"
+            ohos:top_margin="40vp">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:left_margin="15vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="20vp">
+                    <!--⾸⻚ 搜索框 -->
+                    <StackLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content">
+
+                        <TextField
+                            ohos:id="$+id:index_search_textfield"
+                            ohos:height="35vp"
+                            ohos:width="265vp"
+                            ohos:background_element="$graphic:background_search_input"
+                            ohos:hint="请输入您想查找的物品 "
+                            ohos:left_padding="20px"
+                            ohos:text_size="15fp"
+                            ohos:top_margin="5vp"
+                            ohos:top_padding="8vp">
+                        </TextField>
+
+
+                        <Image
+                            ohos:height="20vp"
+                            ohos:width="20vp"
+                            ohos:image_src="$media:sosuo"
+                            ohos:left_margin="240vp"
+                            ohos:scale_mode="inside"
+                            ohos:top_margin="12vp"/>
+                    </StackLayout>
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:orientation="horizontal"
+                        ohos:top_margin="10vp">
+
+                        <DirectionalLayout
+                            ohos:height="match_content"
+                            ohos:width="match_parent"
+                            ohos:left_margin="8vp">
+
+                            <Image
+                                ohos:height="25vp"
+                                ohos:width="25vp"
+                                ohos:image_src="$media:saomiao"
+                                ohos:scale_mode="inside"
+                                />
+                        </DirectionalLayout>
+
+                        <DirectionalLayout
+                            ohos:id="$+id:Classification"
+                            ohos:height="match_content"
+                            ohos:width="match_parent"
+                            ohos:left_margin="7vp">
+
+                            <Image
+                                ohos:height="25vp"
+                                ohos:width="25vp"
+                                ohos:image_src="$media:fenlei"
+                                ohos:scale_mode="inside"
+                                />
+                        </DirectionalLayout>
+                    </DirectionalLayout>
+
+
+                </DirectionalLayout>
+                <!--            <Image-->
+                <!--                ohos:height="match_content"-->
+                <!--                ohos:width="match_parent"-->
+                <!--                ohos:image_src="$media:horizontal_lineOne"-->
+                <!--                ohos:top_margin="27px"/>-->
+                <!--轮播图-->
+                <PageSlider
+                    ohos:id="$+id:index_image_pageslider"
+                    ohos:height="400"
+                    ohos:width="330vp"
+                    ohos:background_element="$graphic:background_index_image"
+                    ohos:left_margin="15vp"
+                    ohos:top_margin="35px">
+                </PageSlider>
+                <!--                设置我发布的，我拾取的-->
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="15vp"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="10vp">
+                    <!--                    发布拾遗-->
+                    <DirectionalLayout
+                        ohos:id="$+id:index_status"
+                        ohos:height="70vp"
+                        ohos:width="160vp"
+                        ohos:background_element="$graphic:button_red"
+                        ohos:orientation="horizontal">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:fason"
+                            ohos:left_margin="8vp"
+                            ohos:scale_mode="zoom_center"
+                            ohos:top_margin="18vp"/>
+
+                        <DirectionalLayout
+                            ohos:height="match_content"
+                            ohos:width="match_content">
+
+                            <Text
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:left_margin="10vp"
+                                ohos:text="发布遗失"
+                                ohos:text_size="18vp"
+                                ohos:top_margin="13vp"/>
+
+                            <Text
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:left_margin="10vp"
+                                ohos:text="Release is lost"
+                                ohos:text_color="#FFB7B6B6"
+                                ohos:text_size="12vp"
+                                ohos:top_margin="5vp"/>
+                        </DirectionalLayout>
+                    </DirectionalLayout>
+                    <!--                    发布拾取-->
+                    <DirectionalLayout
+                        ohos:id="$+id:index_status01"
+                        ohos:height="70vp"
+                        ohos:width="160vp"
+                        ohos:background_element="$graphic:button_red"
+                        ohos:left_margin="10vp"
+                        ohos:orientation="horizontal">
+
+                        <Image
+                            ohos:height="40vp"
+                            ohos:width="40vp"
+                            ohos:image_src="$media:jieshou"
+                            ohos:left_margin="5vp"
+                            ohos:scale_mode="zoom_center"
+                            ohos:top_margin="18vp"/>
+
+                        <DirectionalLayout
+                            ohos:height="match_content"
+                            ohos:width="match_content">
+
+                            <Text
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:left_margin="7vp"
+                                ohos:text="发布拾取"
+                                ohos:text_size="18vp"
+                                ohos:top_margin="13vp"/>
+
+                            <Text
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:left_margin="7vp"
+                                ohos:text="Release to pick up"
+                                ohos:text_color="#FFB7B6B6"
+                                ohos:text_size="12vp"
+                                ohos:top_margin="7vp"/>
+                        </DirectionalLayout>
+                    </DirectionalLayout>
+                </DirectionalLayout>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="20vp">
+
+                    <StackLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content">
+
+                        <Text
+                            ohos:top_margin="17vp"
+                            ohos:left_margin="20vp"
+                            ohos:height="10vp"
+                            ohos:width="80vp"
+                            ohos:background_element="#FFFF0404"/>
+
+                        <Text
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:left_margin="20vp"
+                            ohos:text="失物招领"
+                            ohos:text_size="20vp"
+                            ohos:text_weight="700"/>
+                    </StackLayout>
+
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:left_margin="195vp"
+                        ohos:text="更多"
+                        ohos:text_size="15vp"
+                        ohos:top_margin="5vp"/>
+
+                    <Image
+                        ohos:height="20vp"
+                        ohos:width="20vp"
+                        ohos:image_src="$media:youjianto"
+                        ohos:scale_mode="zoom_center"
+                        ohos:top_margin="5vp"/>
+                </DirectionalLayout>
+                <!--⾸⻚推荐商品列表-->
+                <TableLayout
+                    ohos:id="$+id:index_product_list_table"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:column_count="2"
+                    ohos:left_margin="10vp"
+                    ohos:top_margin="20vp">
+                </TableLayout>
+            </DirectionalLayout>
+        </ScrollView>
+    </StackLayout>
+</DirectionalLayout>

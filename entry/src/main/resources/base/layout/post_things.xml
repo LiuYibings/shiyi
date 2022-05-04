@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="10vp"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:height="24vp"
+            ohos:width="30vp"
+            ohos:image_src="$media:zuojianto"
+            ohos:scale_mode="zoom_center"
+            ohos:top_margin="8vp"/>
+
+        <StackLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_margin="10vp">
+
+
+            <TextField
+                ohos:id="$+id:index_search_textfield"
+                ohos:height="30vp"
+                ohos:width="300vp"
+                ohos:background_element="$graphic:background_search_input"
+                ohos:hint="请输入您想查找的物品 "
+                ohos:left_padding="20px"
+                ohos:text_size="15fp"
+                ohos:top_margin="5vp"
+                ohos:top_padding="8vp">
+            </TextField>
+
+
+            <Image
+                ohos:height="20vp"
+                ohos:width="20vp"
+                ohos:image_src="$media:sosuo"
+                ohos:left_margin="240vp"
+                ohos:scale_mode="inside"
+                ohos:top_margin="12vp"/>
+        </StackLayout>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_content">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="340vp"
+            ohos:bottom_margin="50vp"
+            ohos:left_margin="8vp">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_padding="20vp">
+
+                <Image
+                    ohos:height="30vp"
+                    ohos:width="30vp"
+                    ohos:image_src="$media:jifeng"
+                    ohos:scale_mode="zoom_center"/>
+
+                <Text
+                    ohos:id="$+id:two_price"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="10vp"
+                    ohos:text="价钱"
+                    ohos:text_color="red"
+                    ohos:text_size="18fp"/>
+
+                <Image
+                    ohos:height="25vp"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:ver_lineOne"
+                    ohos:left_margin="15vp"
+                    ohos:top_margin="5vp"/>
+
+                <Text
+                    ohos:id="$+id:two_title"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="20vp"
+                    ohos:multiple_lines="true"
+                    ohos:text="标题"
+                    ohos:text_color="#FF000000"
+                    ohos:text_size="18fp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:map_image"
+                ohos:height="160vp"
+                ohos:width="345vp"
+                ohos:background_element="$graphic:button_red"
+                ohos:top_margin="15vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <DirectionalLayout
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        >
+
+                        <Image
+                            ohos:height="100vp"
+                            ohos:width="100vp"
+                            ohos:image_src="$media:dili"
+                            ohos:left_margin="40vp"
+                            ohos:scale_mode="zoom_center"
+                            ohos:top_margin="2vp"/>
+                    </DirectionalLayout>
+
+                    <Text
+                        ohos:id="$+id:post_thing_address"
+                        ohos:height="80vp"
+                        ohos:width="160vp"
+                        ohos:left_margin="25vp"
+                        ohos:multiple_lines="true"
+                        ohos:text_size="15vp"
+                        ohos:top_margin="10vp"/>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="45vp"
+                    ohos:text="点击查看详细的地址位置信息"
+                    ohos:text_size="20vp"
+                    ohos:text_weight="800"
+                    ohos:top_margin="15vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:top_margin="10vp">
+
+                <Image
+                    ohos:height="match_content"
+                    ohos:width="60vp"
+                    ohos:image_src="$media:horizontal_lineOne"
+                    ohos:top_margin="20vp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="20vp"
+                    ohos:text="请仔细核验以下信息"
+                    ohos:text_color="#FFC3C1C1"
+                    ohos:text_size="20vp"
+                    ohos:top_margin="8vp"/>
+
+                <Image
+                    ohos:height="match_content"
+                    ohos:width="60vp"
+                    ohos:image_src="$media:horizontal_lineOne"
+                    ohos:left_margin="20vp"
+                    ohos:top_margin="20vp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:top_margin="10vp">
+
+                <Text
+                    ohos:id="$+id:two_remark"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="8vp"
+                    ohos:multiple_lines="true"
+                    ohos:text="描述"
+                    ohos:text_size="15fp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:photos_post"
+                ohos:height="match_content"
+                ohos:width="match_content">
+            </DirectionalLayout>
+
+
+            <Text
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="20vp"
+                ohos:text="评论"
+                ohos:text_size="20vp"
+                ohos:top_margin="20vp"/>
+
+            <DirectionalLayout
+                ohos:bottom_margin="50vp"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:left_margin="30vp"
+                ohos:top_margin="15vp">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="horizontal">
+
+                    <Image
+                        ohos:id="$+id:o3_3thing"
+                        ohos:height="40vp"
+                        ohos:width="40vp"
+                        ohos:image_src="$media:o3_1"
+                        ohos:scale_mode="zoom_center"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="禁止比菜"
+                        ohos:text_size="15fp"/>
+                </DirectionalLayout>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="40vp"
+                    ohos:text="C++才是世界上最好的语言"
+                    ohos:text_color="#A9C3C1C1"
+                    ohos:text_size="12fp"/>
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="50vp"
+            ohos:width="match_parent"
+            ohos:background_element="#FFFFFFFF"
+            ohos:orientation="horizontal"
+            ohos:top_margin="690vp">
+
+            <Image
+                ohos:height="25vp"
+                ohos:width="25vp"
+                ohos:image_src="$media:shouchan"
+                ohos:left_margin="30vp"
+                ohos:scale_mode="zoom_center"
+                ohos:top_margin="15vp"/>
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:button_red"
+                ohos:bottom_margin="5vp"
+                ohos:bottom_padding="5vp"
+                ohos:left_margin="160vp"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="细聊"
+                ohos:text_size="18vp"
+                ohos:top_margin="8vp"
+                ohos:top_padding="5vp"/>
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:button_red1"
+                ohos:bottom_margin="5vp"
+                ohos:bottom_padding="5vp"
+                ohos:left_margin="15vp"
+                ohos:left_padding="10vp"
+                ohos:right_padding="10vp"
+                ohos:text="认领"
+                ohos:text_size="18vp"
+                ohos:top_margin="8vp"
+                ohos:top_padding="5vp"/>
+        </DirectionalLayout>
+
+    </ScrollView>
+
+</DirectionalLayout>

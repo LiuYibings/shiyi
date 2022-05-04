@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_content"
+    ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:id="$+id:one1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:left_margin="15vp"
+        ohos:orientation="horizontal"
+        ohos:top_margin="15vp">
+
+        <Image
+            ohos:id="$+id:information_thing"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:image_src="$media:gaode"
+            ohos:scale_mode="stretch"
+            ohos:top_margin="5vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="190vp"
+            ohos:left_margin="10vp"
+            ohos:top_margin="5vp">
+
+            <Text
+                ohos:id="$+id:cath_title"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_size="15fp"/>
+
+            <Text
+                ohos:id="$+id:cath_lebal"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_color="#A1BAB8B8"
+                ohos:text_size="12fp"
+                ohos:top_margin="5vp"/>
+
+            <Text
+                ohos:id="$+id:cath_date"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text_color="#A1BAB8B8"
+                ohos:text_size="12fp"
+                ohos:top_margin="5vp"/>
+        </DirectionalLayout>
+        <Image
+            ohos:id="$+id:information_thing_img"
+            ohos:height="80vp"
+            ohos:width="80vp"
+            ohos:scale_mode="zoom_center"/>
+    </DirectionalLayout>
+</DirectionalLayout>
